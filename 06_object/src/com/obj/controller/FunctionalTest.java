@@ -16,7 +16,7 @@ public class FunctionalTest {
 	public double cal1() {//멤버메소드
 						  //중괄호 안에 꼭 return이 있어야 함, return이 없으면 에러가 남
 		Scanner sc = new Scanner(System.in);//스캐너 객체를 보관할 수 있는 변수 선언, new Scanner(System.in): 생성자
-		System.out.print("정수입력: ");//System 클래스의 객체에서 out이라는 public static 멤버변수의 PrintStream 클래스의 print매소드 호출/실행해!
+		System.out.print("정수입력: ");//System 클래스의 객체에서 PrintStream 클래스의 out이라는 public static 멤버변수의 print매소드 호출/실행해!
 		//~~~(): 매소드 호출/실행
 		int su = sc.nextInt(); //sc 클래스 객체의 멤버변수 중 nextInt 매소드 실행해
 		System.out.print("정수입력: ");
